@@ -15,6 +15,7 @@ public class LabClass
     private String send;
     private ArrayList<Student> students;
     private int capacity;
+    private int average;
     
     /**
      * Create a LabClass with a maximum number of enrolments. All other details
@@ -95,4 +96,8 @@ public class LabClass
         System.out.println("Sending message:" + message);
     }
     
+    public int average(int a, int b)
+    {
+        return (a + b) / 2;
+    }
 }
