@@ -12,6 +12,7 @@ public class LabClass
     private String instructor;
     private String room;
     private String timeAndDay;
+    private String send;
     private ArrayList<Student> students;
     private int capacity;
     
@@ -88,4 +89,10 @@ public class LabClass
         }
         System.out.println("Number of students: " + numberOfStudents());
     }
+    
+    public void send(String message)
+    {
+        System.out.println("Sending message:" + message);
+    }
+    
 }
